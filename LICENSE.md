@@ -42,12 +42,14 @@ I grant any entity the right to use the work for any purpose, without any condit
 Zhaofeng Li
 ```
 
-
 ## `index.html`, `images/logo.png`
 ```
 Copyright (c) 2012-2014, Zhaofeng Li
 All rights reserved.
 ```
+
+## style/fonts/Roboto
+See http://www.apache.org/licenses/LICENSE-2.0.html
 
 ## Bower dependencies
 Refer to their repositories for details.
