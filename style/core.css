@@ -1,0 +1,78 @@
+/*
+	Main CSS file
+	
+	Relased into public domain.
+*/
+
+body {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	background: #eee;
+}
+
+#header {
+	margin-top: 30px;
+	background-image: linear-gradient( to bottom, #3f51b5 0, #5c6bc0 5px, #3949ab 100% );
+	color: #fff;
+}
+
+#header h1 {
+	color: transparent;
+	display: none;
+}
+
+#logo {
+	width: 40%;
+	min-width: 500px;
+}
+
+@media screen and (max-width: 499px) {
+	#logo {
+		min-width: 100%;
+	}
+}
+
+#tagline {
+	color: #e8eaf6;
+	font-size: 30px;
+	font-family: "RobotoDraft", "Roboto", sans-serif;
+	text-shadow: 0px -1px 0px #283593;
+}
+
+#links {
+	display: inline-block;
+	width: auto;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+#links li {
+	display: inline-block;
+	width: 55px;
+	height: 55px;
+	background-color: transparent;
+	background-size: cover;
+}
+
+#links li:hover {
+	width: auto;
+	min-width: 55px;
+}
+
+#links li .caption {
+	display: none;
+}
+
+#link-github {
+	background-image: url( "../images/octocat.png" );
+}
+
+#link-wikipedia {
+	background-image: url( "../images/wikipedia.png" );
+}
+
+#link-email {
+	background-image: url( "../images/email.png" );
+}
