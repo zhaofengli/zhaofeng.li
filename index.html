@@ -4,7 +4,7 @@
 	<title>Zhaofeng Li</title>
 	<meta name="author" content="Zhaofeng Li"/>
 	<meta name="viewport" content="width=device-width" />
-	<meta name="theme-color" content="#3f5185"/>
+	<meta name="theme-color" content="#3f51b5"/>
 	<link rel="stylesheet" href="style/core.css"/>
 	<!--[if lt IE 9]>
 		<script src="vendor/html5shiv/dist/html5shiv.min.js"></script>
@@ -12,24 +12,64 @@
 	<![endif]-->
 </head>
 <body>
-	<div id="header">
-		<h1>Zhaofeng Li</h1>
-		<img id="logo" src="images/logo.png"/>
-		<h2 id="tagline">Student. Coder. Wikipedian.</h2>
-		<ul id="links">
-			<a href="https://en.wikipedia.org/wiki/User:Zhaofeng_Li">
-				<li id="link-wikipedia">
-					<span class="caption">Wikipedia</span>
-				</li></a>
-			<a href="https://github.com/zhaofengli">
-				<li id="link-github">
+	<section id="header">
+		<div class="sectionContent">
+			<h1>Zhaofeng Li</h1>
+			<img id="logo" src="images/logo.png"/>
+			<span id="tagline">Student. Coder. Wikipedian.</span>
+			<ul id="links">
+				<a href="https://en.wikipedia.org/wiki/User:Zhaofeng_Li">
+					<li class="button-wikipedia">
+						<span class="caption">Wikipedia</span>
+					</li></a>
+				<a href="https://github.com/zhaofengli">
+					<li class="button-github">
+						<span class="caption">GitHub</span>
+					</li></a>
+				<a href="mailto:%68%65%6C%6C%6F%40%7A%68%61%6F%66%65%6E%67%2E%6C%69">
+					<li class="button-web">
+						<span class="caption">E-mail</span>
+					</li></a>
+			</ul>
+			<div class="down-arrow">&#x25BC</div>
+		</div>
+	</section>
+	<section id="aboutme" style="background: #de5800;">
+		<div class="sectionContent">
+			<p>Hi, I'm Zhaofeng Li, a student living in Guangdong, China. I'm a computer geek, with moderate knowledge in C, PHP, and several other programming languages. I'm also a volunteer editor <a href="https://en.wikipedia.org/wiki/User:Zhaofeng_Li">on English Wikipedia</a>. I can be found on <a href="https://github.com/zhaofengli">GitHub</a> and <a href="http://freenode.net">freenode</a> (nickname <i>Zhaofeng_Li</i>).</p>
+			<p>Scroll down for some of my projects.</p>
+		</div>
+	</section>
+	<section id="2048-arduino" style="background: green;">
+		<div class="sectionContent">
+			<h2>2048 for Arduino</h2>
+			<p>The popular tile-joining game now lives on your Arduino board! Roll your own handheld 2048 game with an Arduino board, a cheap PCD8544 screen and a few buttons. The entire program fits nicely in an ATmega8 chip, in case you want to make a custom board.</p>
+			<p>Don't worry about the battery dying out, it has even got a built-in battery meter!</p>
+			<a href="https://github.com/zhaofengli/2048-arduino">
+				<div class="round-button button-github">
 					<span class="caption">GitHub</span>
-				</li></a>
-			<a href="mailto:%68%65%6C%6C%6F%40%7A%68%61%6F%66%65%6E%67%2E%6C%69">
-				<li id="link-email">
-					<span class="caption">E-mail</span>
-				</li></a>
-		</ul>
-	</div>
+				</div></a>
+		</div>
+	</section>
+	<section id="refill" style="background: purple;">
+		<div class="sectionContent">
+			<h2>reFill</h2>
+			<p>reFill is a Wikipedia tool which fills bare URL references with metadata fetched from corresponding webpages, semi-automatically. Although optimized for Wikipedia, the tool can be adapted to any MediaWiki-powered wiki which uses <code>&lt;ref&gt;</code> tag citations. Read more about the tool <a href="https://en.wikipedia.org/wiki/User:Zhaofeng_Li/reFill">on Wikipedia</a>.</p>
+			<a href="https://tools.wmflabs.org/refill/">
+				<div class="round-button button-web">
+					<span class="caption">Web</span>
+				</div></a>
+			<a href="https://github.com/zhaofengli/refill">
+				<div class="round-button button-github">
+					<span class="caption">GitHub</span>
+				</div></a>
+
+		</div>
+	</section>
+	<section id="footer">
+		<div class="sectionContent">
+			<div class="up-arrow">&#x25B2</div>
+		</div>
+	</section>
 </body>
 </html>
