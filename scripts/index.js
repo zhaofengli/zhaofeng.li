@@ -12,4 +12,11 @@ $( ".scroll-to-aboutme" ).click( function() {
 	return false
 } );
 
-var s = skrollr.init();
+// Regex kanged from Skrollr
+if ( !( /Android|iPhone|iPad|iPod|BlackBerry/i ).test( navigator.userAgent || navigator.vendor || window.opera ) ) {
+	// use Skrollr on desktop only
+	var s = skrollr.init();
+} else {
+	// mobile browser
+	// TODO: implement a simple scrolling position detection mechanism
+}
