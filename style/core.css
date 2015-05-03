@@ -108,6 +108,18 @@ a {
 	display: none;
 }
 
+#aboutme {
+	background: #de5800;
+}
+
+#p2048-arduino {
+	background: #259b24;
+}
+
+#refill {
+	background: #673ab7
+}
+
 .button-github {
 	background-image: url( "../images/octocat.png" );
 }
@@ -133,6 +145,11 @@ a {
 	text-shadow: 0 15px #fff, 0 0 #ddd;
 }
 
-.scroll-to-top {
+.scroll-button {
 	cursor: pointer;
+}
+
+.github-fork-ribbon {
+	background-color: #333 !important;
+	margin-left: -200px;
 }
