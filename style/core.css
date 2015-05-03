@@ -132,3 +132,7 @@ a {
 	font-size: 64px;
 	text-shadow: 0 15px #fff, 0 0 #ddd;
 }
+
+.scroll-to-top {
+	cursor: pointer;
+}
