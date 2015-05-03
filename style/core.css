@@ -117,7 +117,15 @@ a {
 }
 
 #refill {
-	background: #673ab7
+	background: #673ab7;
+}
+
+#citegen {
+	background: #03a9f4;
+}
+
+#tictactoe {
+	background: #009688;
 }
 
 .button-github {
