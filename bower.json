@@ -1,0 +1,24 @@
+{
+  "name": "zhaofeng.li",
+  "authors": [
+    "Zhaofeng Li <hello@zhaofeng.li>"
+  ],
+  "description": "Zhaofeng's website",
+  "main": "",
+  "license": "BSD-2-Clause",
+  "homepage": "https://zhaofeng.li",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "material-design-lite": "^1.3.0",
+    "sass-material-colors": "^0.0.5",
+    "jquery": "^3.1.1",
+    "crypto-js": "^3.1.9"
+  }
+}

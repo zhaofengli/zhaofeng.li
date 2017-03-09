@@ -1,0 +1,74 @@
+.z-master-layout {
+  background: url('../images/hero.jpg') center / cover;
+}
+
+.z-main-grid {
+  padding-top: 100px;
+  max-width: 900px;
+}
+
+.z-footer {
+  background-color: rgba(66, 66, 66, 0.8);
+}
+
+.z-transparent {
+  color: white;
+}
+
+.z-main-grid .mdl-card__supporting-text {
+  margin-bottom: 36px;
+}
+
+.z-main-grid .mdl-card__actions {
+  position: absolute;
+  bottom: 0;
+}
+
+#aboutme > .mdl-card__title {
+  height: 250px;
+  background: url('../images/such-blank-much-hour-very-productive-wow.png') center / cover;
+  color: white;
+}
+
+#aboutme > .mdl-card__supporting-text {
+  padding-top: 30px;
+}
+
+#aboutme .z-fab {
+  position: absolute;
+  right: 20px;
+  top: 225px;
+}
+
+#refill > .mdl-card__title {
+  height: 150px;
+  background: url('../images/refill.png') center / cover;
+}
+
+#citegen > .mdl-card__title {
+  height: 150px;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.7)), url('../images/citegen.png') center / cover;
+}
+
+#p2048-arduino > .mdl-card__title {
+  height: 150px;
+  background: url('../images/2048-arduino.jpg') center / cover;
+  color: white;
+}
+
+#citrushack2016 > .mdl-card__title {
+  height: 150px;
+  background: url('../images/supersoil.png') center / cover;
+}
+
+#dotfiles > .mdl-card__title {
+  height: 150px;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url('../images/dotfiles.png') center / cover;
+  color: white;
+}
+
+#heart {
+  text-decoration: none;
+  font-weight: normal;
+  cursor: default;
+}
